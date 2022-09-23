@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source              = { :git => package['repository']['url'], :tag => "v#{s.version}" }
   s.default_subspec     = 'Main'
   s.requires_arc        = true
-  s.platform            = :ios, "7.0"
+  s.platform            = :ios, "10.0"
   s.preserve_paths      = "**/*.js"
 
   s.subspec 'Main' do |ss|
